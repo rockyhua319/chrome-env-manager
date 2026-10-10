@@ -1,9 +1,9 @@
 {
-  "version": "0.1.5",
-  "notes": "標籤改為標籤庫：建一次可給多個環境選，改名換色全域生效；主畫面與設定頁可管理標籤。",
+  "version": "0.1.6",
+  "notes": "代理設定改版：選代理類型即出現對應欄位（HTTP / SOCKS5 / IPFoxy 動態 / IPFoxy 靜態獨享），儲存前可檢查代理，附購買連結。",
   "published_at": "2026-10-10",
   "macos": {
-    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.5-macos.zip",
-    "size": 8813742
+    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.6-macos.zip",
+    "size": 8818616
   }
 }

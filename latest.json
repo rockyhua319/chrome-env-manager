@@ -1,9 +1,9 @@
 {
-  "version": "0.1.8",
-  "notes": "修正點擊環境跳到自己 Chrome 的問題；現在會正確把該環境的視窗叫到最前面，含縮小到 Dock 的情況。",
-  "published_at": "2026-10-10",
+  "version": "0.1.9",
+  "notes": "代理表單改為通用：類型、主機、連接埠、帳號、密碼五個欄位，任何供應商的代理都直接填；表單下方可把整段代理資料貼上自動填入（支援一值一行）；代理庫頁先顯示代理列表，平台同步改為頁底選用區塊。",
+  "published_at": "2026-10-11",
   "macos": {
-    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.8-macos.zip",
-    "size": 8824470
+    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.9-macos.zip",
+    "size": 8829158
   }
 }

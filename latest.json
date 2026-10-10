@@ -1,9 +1,9 @@
 {
-  "version": "0.1.7",
-  "notes": "點擊運行中的環境會把 Chrome 視窗叫回最前面，包含縮小到 Dock 或被其他視窗遮住的情況。",
+  "version": "0.1.8",
+  "notes": "修正點擊環境跳到自己 Chrome 的問題；現在會正確把該環境的視窗叫到最前面，含縮小到 Dock 的情況。",
   "published_at": "2026-10-10",
   "macos": {
-    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.7-macos.zip",
-    "size": 8824547
+    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.8-macos.zip",
+    "size": 8824470
   }
 }

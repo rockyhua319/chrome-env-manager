@@ -8,6 +8,7 @@
 
 | 版本 | 檔案 | 說明 |
 | --- | --- | --- |
+| 0.1.2 | [ChromeEnvManager-0.1.2-macos.zip](https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.2-macos.zip) | macOS 13 以上，Intel 與 Apple Silicon 通用 |
 | 0.1.1 | [ChromeEnvManager-0.1.1-macos.zip](https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.1-macos.zip) | macOS 13 以上，Intel 與 Apple Silicon 通用 |
 | 0.1.0 | [ChromeEnvManager-0.1.0-macos.zip](https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.0-macos.zip) | macOS 13 以上，Intel 與 Apple Silicon 通用 |
 

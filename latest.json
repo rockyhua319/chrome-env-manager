@@ -1,9 +1,9 @@
 {
-  "version": "0.1.1",
-  "notes": "新增「保留登入狀態」（預設開，設定頁可關，環境可單獨覆寫）；點卡片直接開啟，編輯改為獨立按鈕；自動更新。",
+  "version": "0.1.2",
+  "notes": "修正「保留登入狀態」：重新開啟環境時真正保留登入與上次的分頁。",
   "published_at": "2026-10-10",
   "macos": {
-    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.1-macos.zip",
-    "size": 8797090
+    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.2-macos.zip",
+    "size": 8795252
   }
 }

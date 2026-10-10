@@ -1,9 +1,9 @@
 {
-  "version": "0.1.3",
-  "notes": "新增環境標籤：新增或編輯環境時可加標籤，卡片顯示，主畫面可按標籤篩選。備註照舊。",
+  "version": "0.1.4",
+  "notes": "更新提示更即時：每 30 分鐘檢查一次，切回視窗時也會檢查。",
   "published_at": "2026-10-10",
   "macos": {
-    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.3-macos.zip",
-    "size": 8801430
+    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.4-macos.zip",
+    "size": 8802411
   }
 }

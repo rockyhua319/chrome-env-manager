@@ -1,9 +1,9 @@
 {
-  "version": "0.1.4",
-  "notes": "更新提示更即時：每 30 分鐘檢查一次，切回視窗時也會檢查。",
+  "version": "0.1.5",
+  "notes": "標籤改為標籤庫：建一次可給多個環境選，改名換色全域生效；主畫面與設定頁可管理標籤。",
   "published_at": "2026-10-10",
   "macos": {
-    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.4-macos.zip",
-    "size": 8802411
+    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.5-macos.zip",
+    "size": 8813742
   }
 }

@@ -1,9 +1,9 @@
 {
-  "version": "0.1.2",
-  "notes": "修正「保留登入狀態」：重新開啟環境時真正保留登入與上次的分頁。",
+  "version": "0.1.3",
+  "notes": "新增環境標籤：新增或編輯環境時可加標籤，卡片顯示，主畫面可按標籤篩選。備註照舊。",
   "published_at": "2026-10-10",
   "macos": {
-    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.2-macos.zip",
-    "size": 8795252
+    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.3-macos.zip",
+    "size": 8801430
   }
 }

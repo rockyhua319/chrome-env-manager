@@ -1,9 +1,9 @@
 {
-  "version": "0.1.12",
-  "notes": "動態代理可勾選「每個環境用不同 IP」：同一組帳號密碼，每個環境自動帶自己的 session，各拿一個固定出口 IP；抽屜可「換一個 IP」。修正編輯代理時帳號欄位空白導致密碼被清掉的問題。",
+  "version": "0.1.13",
+  "notes": "動態代理可替每個環境選「代理國家」：環境抽屜裡可搜尋的下拉（輸入 JP 或 日本），由應用組進帳號，同一組帳號下不同環境可拿不同國家的 IP。",
   "published_at": "2026-10-11",
   "macos": {
-    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.12-macos.zip",
-    "size": 8870216
+    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.13-macos.zip",
+    "size": 8884418
   }
 }

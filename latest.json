@@ -1,9 +1,9 @@
 {
-  "version": "0.1.13",
-  "notes": "動態代理可替每個環境選「代理國家」：環境抽屜裡可搜尋的下拉（輸入 JP 或 日本），由應用組進帳號，同一組帳號下不同環境可拿不同國家的 IP。",
+  "version": "0.1.14",
+  "notes": "動態代理可直接選「預設國家」（可搜尋），不用再碰參數寫法；寫法欄位收進進階。填入 -cc-JP 這類實際國碼也會自動理解成預設日本。",
   "published_at": "2026-10-11",
   "macos": {
-    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.13-macos.zip",
-    "size": 8884418
+    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.14-macos.zip",
+    "size": 8888015
   }
 }

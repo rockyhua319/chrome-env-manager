@@ -1,9 +1,9 @@
 {
-  "version": "0.1.10",
-  "notes": "環境卡片上的「編輯」改成實體按鈕（淡紫色底），和「開啟」一樣大、一眼可辨。",
+  "version": "0.1.11",
+  "notes": "第一層偽裝：走代理的環境不再透過 WebRTC、DNS、定位洩漏真實位置；時區與語言自動跟著代理所在地；卡片提醒哪些環境用同一個 IP；代理庫標示機房 IP。",
   "published_at": "2026-10-11",
   "macos": {
-    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.10-macos.zip",
-    "size": 8829177
+    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.11-macos.zip",
+    "size": 8852149
   }
 }

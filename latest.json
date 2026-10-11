@@ -1,9 +1,9 @@
 {
-  "version": "0.1.9",
-  "notes": "代理表單改為通用：類型、主機、連接埠、帳號、密碼五個欄位，任何供應商的代理都直接填；表單下方可把整段代理資料貼上自動填入（支援一值一行）；代理庫頁先顯示代理列表，平台同步改為頁底選用區塊。",
+  "version": "0.1.10",
+  "notes": "環境卡片上的「編輯」改成實體按鈕（淡紫色底），和「開啟」一樣大、一眼可辨。",
   "published_at": "2026-10-11",
   "macos": {
-    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.9-macos.zip",
-    "size": 8829158
+    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.10-macos.zip",
+    "size": 8829177
   }
 }

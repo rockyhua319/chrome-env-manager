@@ -1,9 +1,9 @@
 {
-  "version": "0.1.14",
-  "notes": "動態代理可直接選「預設國家」（可搜尋），不用再碰參數寫法；寫法欄位收進進階。填入 -cc-JP 這類實際國碼也會自動理解成預設日本。",
-  "published_at": "2026-10-11",
+  "version": "0.1.15",
+  "notes": "關掉 Chrome 視窗不再清空：程式會記下分頁、視同關閉環境，下次開啟時把分頁和登入狀態一起帶回來；運行中的卡片顯示分頁數；退出程式時確保登入狀態保存完成",
+  "published_at": "2026-10-13",
   "macos": {
-    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.14-macos.zip",
-    "size": 8888015
+    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.15-macos.zip",
+    "size": 8910746
   }
 }

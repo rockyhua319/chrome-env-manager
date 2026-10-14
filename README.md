@@ -4,7 +4,12 @@
 
 ## 下載
 
-**最新版：[Releases 頁面](https://github.com/rockyhua319/chrome-env-manager/releases/latest)**
+**最新版 0.1.15：[下載 ChromeEnvManager-0.1.15-macos.zip](https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.15-macos.zip)**（macOS 13 以上，Intel 與 Apple Silicon 通用）
+
+需要先安裝 [Google Chrome](https://www.google.com/chrome/)。
+
+<details>
+<summary>全部版本</summary>
 
 | 版本 | 檔案 | 說明 |
 | --- | --- | --- |
@@ -25,22 +30,44 @@
 | 0.1.1 | [ChromeEnvManager-0.1.1-macos.zip](https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.1-macos.zip) | macOS 13 以上，Intel 與 Apple Silicon 通用 |
 | 0.1.0 | [ChromeEnvManager-0.1.0-macos.zip](https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.0-macos.zip) | macOS 13 以上，Intel 與 Apple Silicon 通用 |
 
-需要先安裝 [Google Chrome](https://www.google.com/chrome/)。
+</details>
 
 ## 安裝
 
 1. 下載 zip，雙擊解壓，得到「Chrome 環境管理器」。
 2. 把它拖進「應用程式」資料夾。
-3. 第一次打開時 macOS 會擋一下（這個應用還沒有 Apple 的公證），照下面做一次就好，之後都正常：
-
-   **macOS 15（Sequoia）或更新**
-   - 雙擊打開，看到「無法打開」的提示後按「完成」。
-   - 打開「系統設定」→「隱私權與安全性」，往下捲到「安全性」，會看到「已阻擋 Chrome 環境管理器」，按旁邊的「仍要打開」，再按一次「打開」。
-
-   **macOS 13 / 14**
-   - 在「應用程式」裡對「Chrome 環境管理器」按右鍵（或按住 Control 點一下）→「打開」→ 再按「打開」。
-
+3. 第一次打開會被 macOS 擋下來，畫面寫著「未打開」、「Apple 無法驗證」。這是正常的，照下一節做一次就好，之後都正常。
 4. 之後從 Launchpad、Spotlight 或「應用程式」資料夾打開即可。
+
+## 打不開？看到「未打開」或「Apple 無法驗證」
+
+![macOS 的提示：未打開『Chrome 環境管理器』，Apple 無法驗證它是否包含惡意軟體](docs/not-opened.jpg)
+
+這個應用沒有向 Apple 付費公證，macOS 對所有這類應用都會跳出這個視窗，不代表檔案有問題。解除一次之後，以後打開、以及在程式裡按「立即更新」都不會再問。
+
+**先別按「丟到垃圾桶」（簡體介面叫「移到废纸篓」）。**
+
+### macOS 15 或更新（Sequoia、Tahoe）
+
+1. 雙擊打開一次，看到「未打開」的視窗後按「完成」。一定要先試開一次，下一步的按鈕才會出現。
+2. 打開「系統設定」，左邊選「隱私權與安全性」（簡體：隐私与安全性）。
+3. 往下捲到「安全性」，會看到「已阻擋『Chrome 環境管理器』以保護你的 Mac」，按旁邊的「強制打開」（簡體：仍要打开）。
+4. 跳出「要打開『Chrome 環境管理器』嗎？」，再按一次「強制打開」，然後用 Touch ID 或輸入 Mac 的登入密碼。
+5. 程式打開了，以後直接雙擊即可。
+
+### macOS 13 / 14（Ventura、Sonoma）
+
+在「應用程式」裡對「Chrome 環境管理器」按右鍵（或按住 Control 點一下）→「打開」→ 再按一次「打開」。
+
+### 常見狀況
+
+- **不小心按了「丟到垃圾桶」**：打開 Dock 上的垃圾桶，對「Chrome 環境管理器」按右鍵 →「放回原位」（簡體：放回原处），再從上面第 1 步做起；或者重新下載一次。
+- **「系統設定」裡找不到「強制打開」**：表示還沒試著打開過，或試開之後隔太久了。回去雙擊一次程式，按「完成」，馬上再到「系統設定」看。
+- **會用「終端機」的話**：把下面這行貼進「終端機」按 Enter，就不用進系統設定，之後直接雙擊打開：
+
+  ```
+  xattr -dr com.apple.quarantine "/Applications/Chrome 環境管理器.app"
+  ```
 
 ## 第一次使用
 

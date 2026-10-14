@@ -4,7 +4,7 @@
 
 ## 下載
 
-**最新版 0.1.15：[下載 ChromeEnvManager-0.1.15-macos.zip](https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.15-macos.zip)**（macOS 13 以上，Intel 與 Apple Silicon 通用）
+**最新版 0.1.16：[下載 ChromeEnvManager-0.1.16-macos.zip](https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.16-macos.zip)**（macOS 13 以上，Intel 與 Apple Silicon 通用）
 
 需要先安裝 [Google Chrome](https://www.google.com/chrome/)。
 
@@ -13,6 +13,7 @@
 
 | 版本 | 檔案 | 說明 |
 | --- | --- | --- |
+| 0.1.16 | [ChromeEnvManager-0.1.16-macos.zip](https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.16-macos.zip) | macOS 13 以上，Intel 與 Apple Silicon 通用 |
 | 0.1.15 | [ChromeEnvManager-0.1.15-macos.zip](https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.15-macos.zip) | macOS 13 以上，Intel 與 Apple Silicon 通用 |
 | 0.1.14 | [ChromeEnvManager-0.1.14-macos.zip](https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.14-macos.zip) | macOS 13 以上，Intel 與 Apple Silicon 通用 |
 | 0.1.13 | [ChromeEnvManager-0.1.13-macos.zip](https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.13-macos.zip) | macOS 13 以上，Intel 與 Apple Silicon 通用 |
@@ -73,7 +74,7 @@
 
 1. 應用會自動找到 Chrome。
 2. 輸入要建立幾個環境，按「建立」。
-3. 每張卡片點一下就會開出一個獨立的 Chrome 視窗，各自的登入狀態互不相通。
+3. 每張卡片點一下就會開出一個獨立的 Chrome 視窗，第一個分頁是這個環境的資訊頁（名稱、目前的出口 IP 和地區、常用網站連不連得上）；分頁標題和網址列左邊都會顯示環境名稱。各環境的登入狀態互不相通。
 4. 需要代理時，到「代理」頁把代理放進代理庫（貼上或連接代理平台），再分配給環境；不用代理也可以直接使用。
 
 資料存放位置：`~/Library/Application Support/ChromeEnvManager/`

@@ -1,9 +1,9 @@
 {
-  "version": "0.1.15",
-  "notes": "關掉 Chrome 視窗不再清空：程式會記下分頁、視同關閉環境，下次開啟時把分頁和登入狀態一起帶回來；運行中的卡片顯示分頁數；退出程式時確保登入狀態保存完成",
-  "published_at": "2026-10-13",
+  "version": "0.1.16",
+  "notes": "環境資訊頁：開啟環境時第一個分頁顯示這個環境的名稱、目前出口 IP 與地區、常用網站連通性、語言與時區；分頁標題和網址列左邊的標籤都是環境名稱（設定頁可關閉）。修正：0.1.15 起網站能偵測到瀏覽器處於「自動化」狀態（navigator.webdriver），已關閉，建議盡快更新。",
+  "published_at": "2026-10-14",
   "macos": {
-    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.15-macos.zip",
-    "size": 8910746
+    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.16-macos.zip",
+    "size": 9090522
   }
 }

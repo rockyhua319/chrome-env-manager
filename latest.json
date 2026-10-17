@@ -1,9 +1,9 @@
 {
-  "version": "0.1.16",
-  "notes": "環境資訊頁：開啟環境時第一個分頁顯示這個環境的名稱、目前出口 IP 與地區、常用網站連通性、語言與時區；分頁標題和網址列左邊的標籤都是環境名稱（設定頁可關閉）。修正：0.1.15 起網站能偵測到瀏覽器處於「自動化」狀態（navigator.webdriver），已關閉，建議盡快更新。",
-  "published_at": "2026-10-14",
+  "version": "0.1.17",
+  "notes": "代理：把 IPFoxy 等平台後台產生的整條線路（主機:埠:帳號:密碼，帳號裡已帶國家、城市和 session）直接貼進「新增代理」即可：每個環境仍各用自己的 session 拿不同 IP，帳號裡的國家自動成為預設國家，城市原樣保留。",
+  "published_at": "2026-10-17",
   "macos": {
-    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.16-macos.zip",
-    "size": 9090522
+    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.17-macos.zip",
+    "size": 9092608
   }
 }

@@ -4,7 +4,7 @@
 
 ## 下載
 
-**最新版 0.1.16：[下載 ChromeEnvManager-0.1.16-macos.zip](https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.16-macos.zip)**（macOS 13 以上，Intel 與 Apple Silicon 通用）
+**最新版 0.1.17：[下載 ChromeEnvManager-0.1.17-macos.zip](https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.17-macos.zip)**（macOS 13 以上，Intel 與 Apple Silicon 通用）
 
 需要先安裝 [Google Chrome](https://www.google.com/chrome/)。
 
@@ -13,6 +13,7 @@
 
 | 版本 | 檔案 | 說明 |
 | --- | --- | --- |
+| 0.1.17 | [ChromeEnvManager-0.1.17-macos.zip](https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.17-macos.zip) | macOS 13 以上，Intel 與 Apple Silicon 通用 |
 | 0.1.16 | [ChromeEnvManager-0.1.16-macos.zip](https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.16-macos.zip) | macOS 13 以上，Intel 與 Apple Silicon 通用 |
 | 0.1.15 | [ChromeEnvManager-0.1.15-macos.zip](https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.15-macos.zip) | macOS 13 以上，Intel 與 Apple Silicon 通用 |
 | 0.1.14 | [ChromeEnvManager-0.1.14-macos.zip](https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.14-macos.zip) | macOS 13 以上，Intel 與 Apple Silicon 通用 |

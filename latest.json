@@ -1,9 +1,9 @@
 {
-  "version": "0.1.17",
-  "notes": "代理：把 IPFoxy 等平台後台產生的整條線路（主機:埠:帳號:密碼，帳號裡已帶國家、城市和 session）直接貼進「新增代理」即可：每個環境仍各用自己的 session 拿不同 IP，帳號裡的國家自動成為預設國家，城市原樣保留。",
-  "published_at": "2026-10-17",
+  "version": "0.1.18",
+  "notes": "檢測：代理檢測失敗後會自動重測（1、2、4 分鐘後，之後每 5 分鐘），不再一直掛著「連線逾時」等你手動檢測；這台電腦本身沒網路時改顯示「這台電腦目前連不上網路」而不是怪代理，網路一回來 30 秒內自動恢復；Mac 睡醒後會等網路恢復再全部重測；運行中環境的「連不上代理」警示在連上後自動消失。",
+  "published_at": "2026-10-20",
   "macos": {
-    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.17-macos.zip",
-    "size": 9092608
+    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.18-macos.zip",
+    "size": 9106349
   }
 }

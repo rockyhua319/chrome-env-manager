@@ -1,9 +1,9 @@
 {
-  "version": "0.1.19",
-  "notes": "新增「密鑰與服務器」頁：右上角可切換，預設仍是 Chrome 環境。把這台電腦能連的服務器、SSH 金鑰和各服務的 Token（Cloudflare、GitLab、kubectl…）按專案與環境整理；按「掃描這台電腦」一鍵找出並勾選匯入；可連線、複製指令、檢測、複製或顯示 Token。Token 的值只在你按下時才讀，複製一分鐘後自動從剪貼簿清掉，顯示 20 秒後自動隱藏；沒有任何背景檢測。",
+  "version": "0.1.20",
+  "notes": "整理內部結構與掃描規則，修正幾個小問題；既有功能不受影響。",
   "published_at": "2026-10-28",
   "macos": {
-    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.19-macos.zip",
-    "size": 10022373
+    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.20-macos.zip",
+    "size": 10037399
   }
 }

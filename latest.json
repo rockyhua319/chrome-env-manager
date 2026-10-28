@@ -1,9 +1,9 @@
 {
-  "version": "0.1.20",
-  "notes": "整理內部結構與掃描規則，修正幾個小問題；既有功能不受影響。",
+  "version": "0.1.21",
+  "notes": "內部結構調整與穩定性修正",
   "published_at": "2026-10-28",
   "macos": {
-    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.20-macos.zip",
-    "size": 10037399
+    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.21-macos.zip",
+    "size": 10655091
   }
 }

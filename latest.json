@@ -1,9 +1,9 @@
 {
-  "version": "0.1.18",
-  "notes": "檢測：代理檢測失敗後會自動重測（1、2、4 分鐘後，之後每 5 分鐘），不再一直掛著「連線逾時」等你手動檢測；這台電腦本身沒網路時改顯示「這台電腦目前連不上網路」而不是怪代理，網路一回來 30 秒內自動恢復；Mac 睡醒後會等網路恢復再全部重測；運行中環境的「連不上代理」警示在連上後自動消失。",
-  "published_at": "2026-10-20",
+  "version": "0.1.19",
+  "notes": "新增「密鑰與服務器」頁：右上角可切換，預設仍是 Chrome 環境。把這台電腦能連的服務器、SSH 金鑰和各服務的 Token（Cloudflare、GitLab、kubectl…）按專案與環境整理；按「掃描這台電腦」一鍵找出並勾選匯入；可連線、複製指令、檢測、複製或顯示 Token。Token 的值只在你按下時才讀，複製一分鐘後自動從剪貼簿清掉，顯示 20 秒後自動隱藏；沒有任何背景檢測。",
+  "published_at": "2026-10-28",
   "macos": {
-    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.18-macos.zip",
-    "size": 9106349
+    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.19-macos.zip",
+    "size": 10022373
   }
 }

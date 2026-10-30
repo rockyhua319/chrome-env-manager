@@ -1,9 +1,9 @@
 {
-  "version": "0.1.21",
-  "notes": "內部結構調整與穩定性修正",
-  "published_at": "2026-10-28",
+  "version": "0.1.22",
+  "notes": "設定頁新增「換電腦」：把環境、代理庫（含密碼）、標籤與各環境的登入狀態打包成一個加密備份檔，到新電腦用「從備份匯入」原樣恢復（連 Chrome 的加密金鑰一起帶走，登入狀態可直接沿用）；初次設定向導也能直接匯入",
+  "published_at": "2026-10-30",
   "macos": {
-    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.21-macos.zip",
-    "size": 10655091
+    "url": "https://github.com/rockyhua319/chrome-env-manager/raw/main/ChromeEnvManager-0.1.22-macos.zip",
+    "size": 10941582
   }
 }
